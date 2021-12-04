@@ -6,7 +6,9 @@ namespace TikTakGame
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome to Tik Tak Toe");
+            TikTakToe game = new TikTakToe();
+            game.InputLetter();
         }
     }
 }
